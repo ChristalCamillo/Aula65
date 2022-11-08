@@ -1,4 +1,4 @@
-package br.com.zup.cafeteriasimcity.ui.register.viewmodel
+package br.com.zup.loginfirebase.ui.register.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

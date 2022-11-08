@@ -10,6 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import br.com.zup.loginfirebase.R
 import br.com.zup.loginfirebase.databinding.ActivityHomeBinding
 import br.com.zup.loginfirebase.ui.home.viewmodel.HomeViewModel
+import br.com.zup.loginfirebase.ui.login.view.LoginActivity
 
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding

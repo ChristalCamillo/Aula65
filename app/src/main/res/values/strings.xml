@@ -1,4 +1,23 @@
 <resources>
     <string name="app_name">LoginFirebase</string>
     <string name="exit">exit</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">ENTRAR</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="home_title_image">A imagem do café de hoje é:</string>
+    <string name="description_image_coffee">Imagem de um café aleátoria trazida da API</string>
+    <string name="register_now">Criar nova conta!</string>
+    <string name="register_name">Digite seu nome</string>
+    <string name="register_email">Digite seu email</string>
+    <string name="register_password">Digite sua senha</string>
+    <string name="register_now_title">CADASTRAR AGORA</string>
+    <string name="description_favorite_icon">Imagem de um icone em formato de coração indicando permitindo ao usuário a favoritar a imagem do café</string>
+    <string name="favoritos">Favoritos</string>
+    <string name="login_success">sucess</string>
 </resources>

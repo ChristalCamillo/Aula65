@@ -1,13 +1,13 @@
-package br.com.zup.cafeteriasimcity.ui.register.view
+package br.com.zup.loginfirebase.ui.register.view
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import br.com.zup.cafeteriasimcity.domain.model.User
-import br.com.zup.cafeteriasimcity.ui.register.viewmodel.RegisterViewModel
 import br.com.zup.loginfirebase.databinding.ActivityRegisterBinding
 import br.com.zup.loginfirebase.ui.home.view.HomeActivity
+import br.com.zup.loginfirebase.ui.register.viewmodel.RegisterViewModel
 import br.com.zup.loginfirebase.utils.USER_KEY
 import com.google.android.material.snackbar.Snackbar
 

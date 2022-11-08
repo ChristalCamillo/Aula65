@@ -1,13 +1,14 @@
-package br.com.zup.loginfirebase.ui.home.view
+package br.com.zup.loginfirebase.ui.login.view
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import br.com.zup.cafeteriasimcity.domain.model.User
-import br.com.zup.cafeteriasimcity.ui.register.view.RegisterActivity
 import br.com.zup.loginfirebase.databinding.ActivityLoginBinding
-import br.com.zup.loginfirebase.ui.home.viewmodel.LoginViewModel
+import br.com.zup.loginfirebase.ui.home.view.HomeActivity
+import br.com.zup.loginfirebase.ui.login.viewmodel.LoginViewModel
+import br.com.zup.loginfirebase.ui.register.view.RegisterActivity
 import br.com.zup.loginfirebase.utils.USER_KEY
 import com.google.android.material.snackbar.Snackbar
 

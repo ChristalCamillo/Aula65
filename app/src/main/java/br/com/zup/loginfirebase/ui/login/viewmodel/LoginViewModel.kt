@@ -1,4 +1,4 @@
-package br.com.zup.loginfirebase.ui.home.viewmodel
+package br.com.zup.loginfirebase.ui.login.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
