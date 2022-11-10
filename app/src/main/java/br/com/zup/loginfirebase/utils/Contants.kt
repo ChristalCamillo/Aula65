@@ -10,3 +10,6 @@ const val IMAGE_COFFEE_ERROR_MESSAGE = "Tivemos um problema ao carregar a imagem
 const val IMAGE_COFFEE_PATH = "cafeteriasimcity"
 const val FAVORITE_PATH = "favoritos"
 const val FAVORITE_MESSAGE = "Imagem favoritada com sucesso!"
+const val APP_PATH = "myfirebase"
+const val TEXT_PATH = "text"
+const val Text_SAVED_MSG = "Sua frase foi salva com sucesso"
