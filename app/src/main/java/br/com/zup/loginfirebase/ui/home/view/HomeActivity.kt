@@ -33,6 +33,7 @@ class HomeActivity : AppCompatActivity() {
         showDataUser()
         viewModel.getSavedMessagesList()
         showRecycler()
+        //crashButton()
 
         binding.btnSaveMessage.setOnClickListener {
             if(validateField()){
@@ -42,6 +43,18 @@ class HomeActivity : AppCompatActivity() {
         }
         observer()
     }
+
+    /*private fun crashButton(){
+        val crashButton = Button(this)
+        crashButton.text = getString(R.string.test_crash)
+        crashButton.setOnClickListener {
+            throw RuntimeException("Test Crash") // Force a crash
+        }
+
+        addContentView(crashButton, ViewGroup.LayoutParams(
+            ViewGroup.LayoutParams.MATCH_PARENT,
+            ViewGroup.LayoutParams.WRAP_CONTENT))
+    }*/
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater: MenuInflater = menuInflater
